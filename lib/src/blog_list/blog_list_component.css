@@ -1,0 +1,36 @@
+div{
+    width: 50%;
+    margin: 72px 0 0 72px;
+}
+
+h2 {
+    margin: 36px 0 0 36px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-left: 18px;
+    padding-right: 18px;
+    line-height: 3em;
+    color: white;
+}
+
+li material-icon {
+    vertical-align: middle;
+}
+li a{
+    color: white;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+li:hover {
+    background-color: #d3d3d326;
+}

@@ -1,0 +1,10 @@
+<!-- Components info: https://webdev.dartlang.org/components -->
+<div *ngIf="items.isNotEmpty">
+    <h2>Blogs</h2>
+    <ul>
+        <li *ngFor="let item of items; let i=index">
+            <material-icon icon="book"></material-icon>
+            <a [routerLink]='blogUrl(item.id)'>{{item.blogTitle}}</a>
+        </li>
+    </ul>
+</div>

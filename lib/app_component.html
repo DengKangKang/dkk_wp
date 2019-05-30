@@ -1,0 +1,22 @@
+<header>
+    <h1>Welcome to KKKK</h1>
+    <ul>
+        <li>
+            <a [routerLink]='RoutePaths.blogs.toUrl()'><span>read</span> Article</a>
+        </li>
+        <li>
+            <a [routerLink]='RoutePaths.presentations.toUrl()'><span>watch</span> Presentations</a>
+        </li>
+        <li>
+            <a href='https://github.com/Unfreeze-kk'><span>fork</span> Github</a>
+        </li>
+        <li>
+            <a href='https://twitter.com/freeze_un'> <span>mention</span> Twitter</a>
+        </li>
+    </ul>
+</header>
+<br/>
+<router-outlet [routes]="Routes.all"></router-outlet>
+
+
+

@@ -1,0 +1,52 @@
+div {
+    flex-direction: column;
+}
+
+header {
+    background-color: transparent !important;
+}
+
+
+h1 {
+    padding: 0;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 36px 36px 18px 36px;
+}
+
+ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-left: 36px;;
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    color: lightgray;
+}
+
+a:hover {
+    color: #48b983;
+}
+
+a:hover span {
+    color: #48b983;
+}
+
+router-outlet {
+    size: 0 0;
+    margin: 0;
+    padding: 0;
+}
